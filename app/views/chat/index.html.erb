@@ -10,7 +10,7 @@
 
 <script>
 
-  var ws_rails = new WebSocketRails("localhost:3001/websocket");
+  var ws_rails = new WebSocketRails("websocketrails.herokuapp.com/websocket");
 
   ws_rails.on_open = function(data) {  
     console.log('Connection has been established: ', data); 
