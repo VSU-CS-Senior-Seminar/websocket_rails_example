@@ -23,6 +23,8 @@ WebsocketRails.setup do |config|
   # * Requires Redis.
   config.synchronize = false
 
+  config.redis_options = {:host => 'lab.redistogo.com', :port => '9701', :user => 'redistogo', :password => 'e15e06dcd332ee97337a2267f5259c4d'}
+
   # Prevent Thin from daemonizing (default is true)
   # config.daemonize = false
 
