@@ -23,7 +23,6 @@ WebsocketRails.setup do |config|
   # * Requires Redis.
   config.synchronize = false
 
-
   # Prevent Thin from daemonizing (default is true)
   # config.daemonize = false
 
