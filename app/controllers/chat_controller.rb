@@ -8,8 +8,8 @@ class ChatController < ApplicationController
   		WebsocketRails[:test].trigger(:new, 'test')
 	}.resume
 
-  	# respond_to do |format|
-   #    format.html { redirect_to chat_index_path }
-   #  end
+  	respond_to do |format|
+       format.html { redirect_to chat_index_path }
+    end
   end
 end
