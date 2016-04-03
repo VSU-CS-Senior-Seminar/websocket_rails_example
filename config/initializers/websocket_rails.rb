@@ -21,7 +21,7 @@ WebsocketRails.setup do |config|
   # Change to true to enable channel synchronization between
   # multiple server instances.
   # * Requires Redis.
-  config.synchronize = false
+  config.synchronize = true
 
   config.redis_options = {:host => 'lab.redistogo.com', :port => '9701', :user => 'redistogo', :password => 'e15e06dcd332ee97337a2267f5259c4d'}
 
